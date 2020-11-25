@@ -1,9 +1,9 @@
 import React from 'react';
-import EventPractice from './component/chap4/EventPractice';
+import Sample from './component/chap6/Sample';
 
 const App = () => {
   return (
-    <EventPractice/>
+    <Sample/>
   );
 };
 
