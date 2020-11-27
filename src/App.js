@@ -1,9 +1,9 @@
-import React from 'react';
-import Sample from './component/chap6/Sample';
+import React, { useState } from 'react';
+import Counter from './component/chap8/Counter';
 
 const App = () => {
   return (
-    <Sample/>
+    <Counter/>
   );
 };
 
