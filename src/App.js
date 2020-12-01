@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Average from './component/chap8/Average';
-import Counter from './component/chap8/Counter';
-import Info from './component/chap8/Info';
-import StyledComponents from './component/chap9/StyledComponents';
+import TodoInsert from './component/chap10/TodoInsert';
+import TodoTemplate from './component/chap10/TodoTemplate';
 
 const App = () => {
   return (
-    <StyledComponents/>
+    <TodoTemplate>
+      <TodoInsert/>
+    </TodoTemplate>
   );
 };
 
