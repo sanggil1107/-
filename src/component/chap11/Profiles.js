@@ -14,7 +14,7 @@ const Profiles = () => {
           <Link to="/profiles/sanggil">sanggil</Link>
         </li>
       </ul>
-
+  
       <Route path="/profiles" exact render={() => <div>사용자를 선택하세요</div>} />
       <Route path="/profiles/:username" component={Profile} />
     </div>

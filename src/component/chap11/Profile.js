@@ -10,7 +10,7 @@ const data = {
     description: '리액트 개발자 - sanggil'
   }
 };
-
+  
 const Profile = ({match}) => {
   const {username} = match.params;
   const profile = data[username];

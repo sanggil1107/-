@@ -14,5 +14,5 @@ const About = ({location}) => {
     </div>
   );
 };
-
+  
 export default About;
