@@ -11,19 +11,32 @@
 
 // export default App;
 
+// import React from 'react';
+// import ColorBox from './component/chap13/ColorBox';
+// import { ColorProvider } from './component/chap13/Color';
+// import SelectColors from './component/chap13/SelectColors';
+
+// const App = () => {
+//   return (
+//     <ColorProvider>
+//       <div>
+//         <SelectColors/>
+//         <ColorBox/>
+//       </div>
+//     </ColorProvider>
+//   );
+// };
+
+// export default App;
+
 import React from 'react';
-import ColorBox from './component/chap13/ColorBox';
-import { ColorProvider } from './component/chap13/Color';
-import SelectColors from './component/chap13/SelectColors';
+import Counter from './component/chap14/Counter';
 
 const App = () => {
   return (
-    <ColorProvider>
-      <div>
-        <SelectColors/>
-        <ColorBox/>
-      </div>
-    </ColorProvider>
+    <div>
+      <Counter number={0} />
+    </div>
   );
 };
 
