@@ -31,11 +31,14 @@
 
 import React from 'react';
 import Counter from './component/chap14/Counter';
+import Todos from './component/chap14/Todos';
 
 const App = () => {
   return (
     <div>
       <Counter number={0} />
+      <hr/>
+      <Todos/>
     </div>
   );
 };
