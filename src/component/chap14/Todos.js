@@ -23,7 +23,7 @@ const Todos = ({input, todos, onChangeInput, onInsert, onToggle, onRemove}) => {
     onInsert(input);
     onChangeInput('');
   };
-  const onChange = e => onChangeInput(e.target.value);
+  const onChange = e => onChangeInput(e.target.value); 
 
   return (
     <div>
