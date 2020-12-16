@@ -30,15 +30,15 @@
 // export default App;
 
 import React from 'react';
-import Counter from './component/chap14/Counter';
-import Todos from './component/chap14/Todos';
+import CounterContainer from './component/chap14/containers/CounterContainer';
+import TodosContainer from './component/chap14/containers/TodosContainer';
 
 const App = () => {
   return (
     <div>
-      <Counter number={0} />
+      <CounterContainer/>
       <hr/>
-      <Todos/>
+      <TodosContainer/>
     </div>
   );
 };

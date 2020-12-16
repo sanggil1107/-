@@ -7,8 +7,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { createStore } from 'redux';
 import rootReducer from './component/chap14/modules/index';
 import { Provider } from 'react-redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, composeWithDevTools());
 
 ReactDOM.render(
   <Provider store={store}>
